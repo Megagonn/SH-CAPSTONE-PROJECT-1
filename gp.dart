@@ -8,7 +8,7 @@ void main() {
   print("Enter a score");
   var inp = stdin.readLineSync();
   var score = int.parse(inp!);
-  if (0 > score || score > 100) {
+  if (0 < score || score > 100) {
     print("out of bound");
   } else if (score < 40) {
     print("Your grade for $subject is F");
@@ -21,4 +21,5 @@ void main() {
   } else if (score >= 80) {
     print("Your grade for $subject is A");
   }
+  print("Have a nice day, thanks...")
 }
