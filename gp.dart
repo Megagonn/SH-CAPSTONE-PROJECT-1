@@ -15,11 +15,11 @@ void main() {
   } else if (score <= 49) {
     print("Your grade for $subject is D");
   } else if (score <= 59) {
-   print("Your grade for $subject is C");
+    print("Your grade for $subject is C");
   } else if (score <= 79) {
     print("Your grade for $subject is B");
   } else if (score >= 80) {
     print("Your grade for $subject is A");
   }
-  print("Have a nice day, thanks...")
+  print("Have a nice day, thanks...");
 }
